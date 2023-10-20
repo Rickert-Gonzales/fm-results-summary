@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+	/* Primary */
+	--light-red: hsl(0, 100%, 67%);
+	--orangey-yellow: hsl(39, 100%, 56%);
+	--green-teal: hsl(166, 100%, 37%);
+	--cobalt-blue: hsl(234, 85%, 45%);
+
+	/* Gradients */
+	--light-slate-blue: hsl(252, 100%, 67%); /*(background)*/
+	--light-royal-blue: hsl(241, 81%, 54%); /*(background)*/
+	--violet-blue: hsla(256, 72%, 46%, 1); /*(circle)*/
+	--persian-blue: hsla(241, 72%, 46%, 0); /*(circle)*/
+
+	/* Neutral */
+	--white: hsl(0, 0%, 100%);
+	--pale-blue: hsl(221, 100%, 96%);
+	--light-lavender: hsl(241, 100%, 89%);
+	--dark-gray-blue: hsl(224, 30%, 27%);
+}
+* {
+	/* display: block; */
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+p {
+	margin: 0px;
+}
+body {
+	background-color: #272727;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-size: 18px;
+}
+.container {
+	background-color: white;
+}
+.result_content {
+	/* background-color: #7857ff; */
+	/* background-color: #2e2be9; */
+	background: linear-gradient(180deg, rgba(120, 87, 255, 1) 0%, rgba(46, 43, 233, 1) 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+.porcent_data {
+	background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 240px;
+	height: 240px;
+}
