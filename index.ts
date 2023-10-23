@@ -1,2 +1,2 @@
 console.log('Hola mundo');
-document.write('Hola mundo con typescript');
+// document.write('Hola mundo con typescript');
